@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+  <body>
+    <div class="full-img" id="fullImgBox">
+      <img id="fullImg" src="" />
+      <span onclick="closeFullImg()">x</span>
+    </div>
+    <input type="radio" name="gallery" id="check1" checked />
+    <input type="radio" name="gallery" id="check2" />
+    <input type="radio" name="gallery" id="check3" />
+    <input type="radio" name="gallery" id="check4" />
+    <div class="container">
+      <h1>OUR PHOTO GALLERY</h1>
+      <div class="top-content">
+        <h3>Photo Gallery</h3>
+        <label for="check1">ALL Photos</label>
+        <label for="check2">Nature Photos</label>
+        <label for="check3">Cities Photos</label>
+        <label for="check4">Singer Photos</label>
+      </div>
+      <div class="photo-gallery">
+        <div class="pic mountain">
+          <img
+            src="images/maountain1.avif"
+            onclick="openFullImg(this.src)"
+            alt="Mountain 1"
+          />
+        </div>
+        <div class="pic cities">
+          <img
+            src="images/cities1.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="City 1"
+          />
+        </div>
+        <div class="pic singer">
+          <img
+            src="images/singer2.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="Singer 2"
+          />
+        </div>
+        <div class="pic mountain">
+          <img
+            src="images/maountain2.jpg"
+            onclick="openFullImg(this.src)"
+            alt="Mountain 2"
+          />
+        </div>
+        <div class="pic cities">
+          <img
+            src="images/cities2.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="City 2"
+          />
+        </div>
+        <div class="pic singer">
+          <img
+            src="images/singer3.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="Singer 3"
+          />
+        </div>
+        <div class="pic mountain">
+          <img
+            src="images/maountain3.jpg"
+            onclick="openFullImg(this.src)"
+            alt="Mountain 3"
+          />
+        </div>
+        <div class="pic cities">
+          <img
+            src="images/cities3.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="City 3"
+          />
+        </div>
+        <div class="pic singer">
+          <img
+            src="images/singer4.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="Singer 4"
+          />
+        </div>
+        <div class="pic mountain">
+          <img
+            src="images/maountain4.jpg"
+            onclick="openFullImg(this.src)"
+            alt="Mountain 4"
+          />
+        </div>
+        <div class="pic cities">
+          <img
+            src="images/cities4.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="City 4"
+          />
+        </div>
+        <div class="pic singer">
+          <img
+            src="images/singer5.jpeg"
+            onclick="openFullImg(this.src)"
+            alt="Singer 5"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="gallery.js"></script>
+  </body>
+</html>
